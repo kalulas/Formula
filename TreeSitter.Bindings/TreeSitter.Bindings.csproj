@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="Library\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="Library\tree-sitter.dll">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+          <Link>tree-sitter.dll</Link>
+      </None>
+      <None Update="Library\tree-sitter.pdb">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+          <Link>tree-sitter.pdb</Link>
+      </None>
+      <None Update="Library\tree-sitter-formula.dll">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+          <Link>tree-sitter-formula.dll</Link>
+      </None>
+      <None Update="Library\tree-sitter-formula.pdb">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+            <Link>tree-sitter-formula.pdb</Link>
+      </None>
+    </ItemGroup>
+
+</Project>
