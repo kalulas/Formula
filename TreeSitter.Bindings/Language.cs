@@ -1,8 +1,10 @@
 ﻿#region File Header
+
 // Filename: Language.cs
 // Author: Kalulas
 // Create: 2024-2-3
 // Description:
+
 #endregion
 
 using System.Runtime.InteropServices;
